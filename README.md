@@ -1,4 +1,4 @@
-# Botmother
+# Botmom
 
 Простая и многофункциональная библиотека для создания своих ботов для телеграмм
 
@@ -8,7 +8,7 @@
 Введите в терминал:
 
 ```bash
-pip install botmother --upgrade --user
+pip install botmom --upgrade --user
 ```
 
 или запустите этот код:
@@ -18,7 +18,7 @@ import os, sys
 
 python = sys.executable
 user = '--user' if 'venv' not in python and 'envs' not in python else ''
-cmd = f'"{python}" -m pip install botmother --upgrade {user}'
+cmd = f'"{python}" -m pip install botmom --upgrade {user}'
 os.system(cmd)
 ```
 
@@ -28,7 +28,7 @@ os.system(cmd)
 Простой echo-бот:
 
 ```python
-from botmother import *
+from botmom import *
 
 TOKEN = "token from botfather"
 
