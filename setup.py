@@ -2,13 +2,13 @@ from setuptools import setup, find_packages
 
 
 def readme():
-    with open("README.md", "r") as f:
+    with open("README.md", "r", encoding="utf-8") as f:
         return f.read()
 
 
 setup(
     name="botmom",
-    version="0.0.1",
+    version="1.0",
     author="Arsenii Misiurenko",
     author_email="2028misyurenko.ad@student.letovo.ru",
     description="Easiest and most variable module for creating telegram bots",
